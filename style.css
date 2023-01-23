@@ -1,0 +1,77 @@
+body {
+    font-family:'Courier New', Courier, monospace;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.header {
+    display: flex;
+    padding-left: 20px;
+    padding-right: 20px;
+    align-items: center;
+    background-color: #171717;
+    color: aliceblue;
+}
+
+
+
+.menu {
+    display: flex;
+    margin-left: auto;
+}
+
+.menu ul {
+    display: flex;
+    gap: 30px
+}
+
+.hero {
+    display: flex;
+    padding: 60px;
+    justify-content: center;
+    align-items: center;
+    background-color: #171717;
+    
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.title {
+    color: aliceblue;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.text {
+    color: aliceblue;
+}
+
+button {
+    font-family: 'Courier New', Courier, monospace;
+    max-width: 100px;
+    padding: 5px;
+    background-color: #DA0037;
+    color: aliceblue;
+    border-radius: 8px;
+    border-color: #DA0037;
+    font-weight: 600;
+}
+
+
+.image-container {
+    margin-left: 20px;
+}
+
+img {
+    height: 280px;
+    width: 280px;
+}
