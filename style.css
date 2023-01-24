@@ -94,7 +94,8 @@ img {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 .frame-container {
@@ -122,4 +123,38 @@ img {
 .centered-image img {
     height: 120px;
     width: 120px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #444444;
+    margin-top: 20px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.quote-container {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    gap: 8px;
+}
+
+.quote {
+    font-style: italic;
+    color: aliceblue;
+    font-size: 23px;
+    font-weight: 500;
+    max-width: 700px;
+}
+
+.attribution {
+    color: aliceblue;
+    font-weight: bold;
+    max-width: 700px;
+    align-self: flex-end;
 }
