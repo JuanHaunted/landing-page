@@ -47,7 +47,6 @@ a:link, a:visited, a:hover, a:active {
     justify-content: center;
     align-items: center;
     background-color: #171717;
-    flex-wrap: wrap-reverse;
 }
 
 
