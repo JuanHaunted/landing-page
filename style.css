@@ -158,3 +158,42 @@ img {
     max-width: 700px;
     align-self: flex-end;
 }
+
+.center-blank {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.call-to-action {
+    background-color: #DA0037;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    border-radius: 10px;
+}
+
+.call-to-action button {
+    border-color: aliceblue;
+    border-width: 1px;
+    align-self: center;
+    padding: 5px 15px 5px 15px;
+}
+
+.act-title {
+    color: aliceblue;
+    font-size: 18px;
+    font-weight: bold;
+    max-width: 400px;
+}
+
+.subinfo {
+    color: aliceblue;
+    font-size: 14px;
+    font-weight: 500;
+    max-width: 400px;
+}
