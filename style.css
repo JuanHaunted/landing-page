@@ -2,12 +2,19 @@ body {
     font-family:'Courier New', Courier, monospace;
     display: flex;
     flex-direction: column;
+    min-height: 100vh;
     align-items: stretch;
 }
 
 ul {
     list-style-type: none;
 }
+
+a:link, a:visited, a:hover, a:active {
+    text-decoration: none; 
+    color: aliceblue;
+ }
+ 
 
 .header {
     display: flex;
@@ -197,3 +204,18 @@ img {
     font-weight: 500;
     max-width: 400px;
 }
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: #171717;
+    margin-top: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.sign {
+    color: aliceblue;
+}
+
